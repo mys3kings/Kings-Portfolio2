@@ -104,8 +104,10 @@ export default function Hero() {
               className="w-full h-full rounded-full overflow-hidden border border-white/5 bg-black"
             >
               <img
-                src="/avatar.jpg"
+                src="/avatar.webp"
                 alt="Kings - Full Stack Developer"
+                loading="eager"
+                decoding="async"
                 className="w-full h-full object-cover object-center object-top opacity-95 hover:opacity-100 transition-opacity"
               />
             </motion.div>

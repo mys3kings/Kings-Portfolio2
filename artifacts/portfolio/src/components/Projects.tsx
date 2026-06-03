@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Luxury Car Showcase Website",
     description: "A stunning visual showcase for luxury automobiles with smooth transitions and a premium feel.",
-    image: "/project-car.png",
+    image: "/project-car.webp",
     tags: ["React", "Tailwind CSS", "Firebase"],
     live: "#",
     github: "#"
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "AI SaaS Dashboard",
     description: "A powerful analytics dashboard for an AI-powered SaaS platform with real-time data visualization.",
-    image: "/project-dashboard.png",
+    image: "/project-dashboard.webp",
     tags: ["Next.js", "Node.js", "MongoDB"],
     live: "#",
     github: "#"
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Modern Business Landing Page",
     description: "A high-converting landing page for a modern business brand, optimized for performance and conversions.",
-    image: "/project-business.png",
+    image: "/project-business.webp",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
     live: "#",
     github: "#"
@@ -51,9 +51,11 @@ export default function Projects() {
               className="group relative bg-background border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all duration-500 hover:shadow-[0_0_40px_rgba(59,130,246,0.1)]"
             >
               <div className="relative h-64 overflow-hidden bg-muted">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80" />
