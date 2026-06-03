@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "dFhSKsrh3XHy1Dz96Dxu-"
+uri = "file://artifacts/portfolio/public/project-car.png"
+type = "image"
+title = "luxury car website"
+
+[[generated]]
+id = "K4-eRwZPySxMYW-_jaQXy"
+uri = "file://artifacts/portfolio/public/project-dashboard.png"
+type = "image"
+title = "ai saas dashboard"
+
+[[generated]]
+id = "Yczqb5A6DhgJrUSHmbFUG"
+uri = "file://artifacts/portfolio/public/project-business.png"
+type = "image"
+title = "business landing page"
